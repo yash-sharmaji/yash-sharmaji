@@ -17,11 +17,12 @@
 
 <div align="center">
   <a href="https://readme-typing-svg.demolab.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&random=false&width=620&lines=Full-Stack+Developer;Open+Source+Contributor;Competitive+Programmer;1st+Runner-Up+%40+Code+Conqueror+2026;Building+ShareX+%26+CivicAI" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&random=false&width=640&lines=Full-Stack+Developer;Open+Source+Contributor;Competitive+Programmer;Explore+Portfolio+%40+yash-sharma.onrender.com;1st+Runner-Up+%40+Code+Conqueror+2026;Building+ShareX+%26+CivicAI" alt="Typing SVG" />
   </a>
 </div>
 
 <p align="center">
+  <a href="https://yash-sharma.onrender.com/"><img src="https://img.shields.io/badge/PORTFOLIO-LIVE%20SITE-6366F1?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
   <a href="https://www.linkedin.com/in/yash-sharmaji/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:yashsharmaji8502@gmail.com"><img src="https://img.shields.io/badge/EMAIL-SAY%20HI-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://www.instagram.com/sharma_ji_yash/"><img src="https://img.shields.io/badge/INSTAGRAM-FOLLOW-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
@@ -35,6 +36,7 @@
 ```javascript
 const yash = {
   education: "Computer Science Undergraduate",
+  portfolio: "https://yash-sharma.onrender.com/",
   focus: "Full-stack web architecture, real-time distributed systems, algorithmic problem solving",
   currently: [
     "1st Runner-Up @ Code Conqueror India 2026",
@@ -106,7 +108,7 @@ const yash = {
 </div>
 
 <p align="center">
-  <i>💼 Open to SDE internships & collaborative open-source engineering. Reach out on <a href="https://www.linkedin.com/in/yash-sharmaji/">LinkedIn</a> or by <a href="mailto:yashsharmaji8502@gmail.com">email</a>.</i>
+  <i>💼 Open to SDE internships &amp; collaborative open-source engineering. Explore my <a href="https://yash-sharma.onrender.com/"><b>Portfolio Website</b></a>, reach out on <a href="https://www.linkedin.com/in/yash-sharmaji/"><b>LinkedIn</b></a> or by <a href="mailto:yashsharmaji8502@gmail.com"><b>email</b></a>.</i>
 </p>
 
 <div align="center">
@@ -117,6 +119,24 @@ const yash = {
 </div>
 
 <br>
+
+### 📌 Pinned Repositories
+
+<div align="center">
+  <a href="https://github.com/aryansinha1908/CodeConquerorHackathon">
+    <img src="./assets/pins/sharex.svg" alt="ShareX Pin" width="48%">
+  </a>
+  <a href="https://github.com/yash-sharmaji/CivicAI">
+    <img src="./assets/pins/civicai.svg" alt="CivicAI Pin" width="48%">
+  </a>
+  <br>
+  <a href="https://github.com/yash-sharmaji/Leetcode-solutions">
+    <img src="./assets/pins/leetcode.svg" alt="Leetcode-solutions Pin" width="48%">
+  </a>
+  <a href="https://github.com/yash-sharmaji/javascript-youtube">
+    <img src="./assets/pins/javascript.svg" alt="javascript-youtube Pin" width="48%">
+  </a>
+</div>
 
 ---
 

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
  width="1180" height="610" viewBox="0 0 1180 610" role="img"
- aria-label="Yash Sharma, Computer Science undergraduate, full-stack web developer and competitive programmer.">
+ aria-label="Yash Sharma — Full-Stack Developer, Open Source Contributor and Competitive Programmer.">
  <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
    <stop offset="0" stop-color="#ffffff"/><stop offset=".58" stop-color="#f1f7ff"/><stop offset="1" stop-color="#e7f7fb"/>
@@ -18,54 +18,121 @@
   <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
    <path d="M24 0H0V24" fill="none" stroke="#64748b" stroke-opacity=".09" stroke-width="1"/>
   </pattern>
-  <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
-   <circle cx="2" cy="2" r="1.2" fill="#0891b2" opacity=".55"/>
-  </pattern>
   <clipPath id="clip"><rect x="18" y="18" width="1144" height="574" rx="24"/></clipPath>
+  <clipPath id="avatar-clip"><rect x="78" y="150" width="328" height="245" rx="14"/></clipPath>
+  <filter id="glow-filter" x="-20%" y="-20%" width="140%" height="140%">
+   <feGaussianBlur stdDeviation="2.5" result="blur"/>
+   <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+  </filter>
  </defs>
  <g clip-path="url(#clip)">
   <rect width="1180" height="610" fill="url(#bg)"/><rect width="1180" height="610" fill="url(#grid)"/>
   <circle cx="220" cy="240" r="250" fill="url(#glow)"/><circle cx="1000" cy="470" r="300" fill="url(#glow)" opacity=".7"/>
   <rect x="18" y="18" width="1144" height="574" rx="24" fill="none" stroke="url(#accent)" stroke-width="1.5"/>
+  
+  <!-- editor chrome -->
   <rect x="18" y="18" width="1144" height="48" fill="#eaf1fa" fill-opacity=".96"/>
   <circle cx="48" cy="42" r="6" fill="#fb7185"/><circle cx="70" cy="42" r="6" fill="#fbbf24"/><circle cx="92" cy="42" r="6" fill="#34d399"/>
   <text x="124" y="47" fill="#475569" font-family="monospace" font-size="13">yash@developer: ~/profile</text>
   <text x="1088" y="47" fill="#059669" font-family="monospace" font-size="11" text-anchor="end">● ONLINE</text>
+  
+  <!-- left visual panel -->
   <rect x="42" y="88" width="400" height="472" rx="18" fill="url(#panel)" stroke="#0891b2" stroke-opacity=".28"/>
   <text x="68" y="120" fill="#0e7490" font-family="monospace" font-size="12" letter-spacing="2">01 / VISUAL.IDENTITY</text>
+  
+  <!-- Avatar Container Card -->
   <rect x="78" y="150" width="328" height="245" rx="14" fill="#f0f9ff" stroke="#cbd5e1"/>
-  <rect x="92" y="164" width="300" height="217" rx="9" fill="url(#dots)" opacity=".65"/>
-  <g font-family="monospace" font-weight="700" text-anchor="middle" fill="#0e7490">
-   <text x="242" y="285" font-size="95" letter-spacing="-9" opacity=".9">YS</text>
-   <text x="242" y="315" font-size="11" letter-spacing="4" fill="#0891b2">BUILD / LEARN / SHIP</text>
+  
+  <g clip-path="url(#avatar-clip)">
+    <!-- Light subtle grid -->
+    <g opacity="0.12">
+      <line x1="78" y1="210" x2="406" y2="210" stroke="#0891b2" stroke-width="0.7" stroke-dasharray="2,4"/>
+      <line x1="78" y1="270" x2="406" y2="270" stroke="#0891b2" stroke-width="0.7" stroke-dasharray="2,4"/>
+      <line x1="78" y1="330" x2="406" y2="330" stroke="#0891b2" stroke-width="0.7" stroke-dasharray="2,4"/>
+      <line x1="160" y1="150" x2="160" y2="395" stroke="#0891b2" stroke-width="0.7" stroke-dasharray="2,4"/>
+      <line x1="242" y1="150" x2="242" y2="395" stroke="#0891b2" stroke-width="0.7" stroke-dasharray="2,4"/>
+      <line x1="324" y1="150" x2="324" y2="395" stroke="#0891b2" stroke-width="0.7" stroke-dasharray="2,4"/>
+    </g>
+
+    <!-- ASCII Art Portrait of Yash (Light Mode) -->
+    <text font-family="'Courier New', Courier, monospace" font-size="6.8px" font-weight="600" fill="#0369a1" xml:space="preserve" text-anchor="middle" letter-spacing="0.5px">
+    <tspan x="242" y="162">                                                </tspan>
+    <tspan x="242" dy="7.1">                        -                       </tspan>
+    <tspan x="242" dy="7.1">                    ---------                   </tspan>
+    <tspan x="242" dy="7.1">                  -------------                 </tspan>
+    <tspan x="242" dy="7.1">                -----------------               </tspan>
+    <tspan x="242" dy="7.1">                -----------------               </tspan>
+    <tspan x="242" dy="7.1">                -----------------               </tspan>
+    <tspan x="242" dy="7.1">                        :=                      </tspan>
+    <tspan x="242" dy="7.1">                  .:==****=                     </tspan>
+    <tspan x="242" dy="7.1">                 .+--*%=--*:                    </tspan>
+    <tspan x="242" dy="7.1">                .#++++++-++++###                </tspan>
+    <tspan x="242" dy="7.1">                =+++++++-++++###                </tspan>
+    <tspan x="242" dy="7.1">                .++++===-+++=###                </tspan>
+    <tspan x="242" dy="7.1">                 #=+++++#++#####                </tspan>
+    <tspan x="242" dy="7.1">                   *-------==                   </tspan>
+    <tspan x="242" dy="7.1">                   +-------==                   </tspan>
+    <tspan x="242" dy="7.1">                  #*-------==                   </tspan>
+    <tspan x="242" dy="7.1">                    %#####*#:                   </tspan>
+    <tspan x="242" dy="7.1">                   %%%###%#%%*                  </tspan>
+    <tspan x="242" dy="7.1">                   @@@%%%%%%%@                  </tspan>
+    <tspan x="242" dy="7.1">                   @@%%%%@%%%%                  </tspan>
+    <tspan x="242" dy="7.1">                  @@@@@%%@%@@@@                 </tspan>
+    <tspan x="242" dy="7.1">                 @@@@@%%%@@@@@@@                </tspan>
+    <tspan x="242" dy="7.1">               @@@@%%@@%#@%@@@@@%@              </tspan>
+    <tspan x="242" dy="7.1">              %@%%@@@%%%@%%@%@@@@@@             </tspan>
+    <tspan x="242" dy="7.1">            @@@@%%%#%#+%%@@@@@@%%%@%@           </tspan>
+    <tspan x="242" dy="7.1">           @@@@@%%#=*#+#@%#%*%@%=%@%@%          </tspan>
+    <tspan x="242" dy="7.1">         %%%@@@@%%%##%####*#*%%#*%%@%@=         </tspan>
+    <tspan x="242" dy="7.1">        @@%#@%@@%%%@@%%%*###*@@%#@%%%%%         </tspan>
+    <tspan x="242" dy="7.1">      *#%%##@%@@@@@%%%%%*%%%#@%%%@@@@@@:        </tspan>
+    <tspan x="242" dy="7.1">     +**#*=%%@@@@@@@@%%%%%%%%@%%@@%#*-.         </tspan>
+    <tspan x="242" dy="7.1">    :####--@%@@@@@@@@%@@%%%%%%%%%%##+           </tspan>
+    <tspan x="242" dy="7.1">    =%%##.=@%@@@@@@@@@@@%%@@@@%%@#*%#:          </tspan>
+    </text>
+
+    <!-- Holographic laser scanline beam -->
+    <g>
+      <line x1="78" y1="150" x2="406" y2="150" stroke="#0891b2" stroke-width="2" stroke-opacity="0.85">
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,245; 0,0" dur="4.2s" repeatCount="indefinite"/>
+      </line>
+      <line x1="78" y1="150" x2="406" y2="150" stroke="#0284c7" stroke-width="1" stroke-opacity="0.95">
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,245; 0,0" dur="4.2s" repeatCount="indefinite"/>
+      </line>
+    </g>
   </g>
+
   <rect x="78" y="150" width="328" height="245" rx="14" fill="none" stroke="#0891b2" stroke-opacity=".28">
-   <animate attributeName="stroke-opacity" values=".15;.55;.15" dur="5s" repeatCount="indefinite"/>
+   <animate attributeName="stroke-opacity" values=".2;.6;.2" dur="4s" repeatCount="indefinite"/>
   </rect>
-  <path d="M78 218H406" stroke="#0891b2" stroke-opacity=".18">
-   <animateTransform attributeName="transform" type="translate" values="0 -60;0 240" dur="7s" repeatCount="indefinite"/>
-  </path>
+
   <text x="78" y="433" fill="#0f172a" font-family="monospace" font-size="20" font-weight="700">Yash Sharma</text>
-  <text x="78" y="460" fill="#475569" font-family="monospace" font-size="13">Computer Science Undergraduate</text>
+  <text x="78" y="460" fill="#475569" font-family="monospace" font-size="13">Full-Stack &amp; Open Source Dev</text>
   <text x="78" y="489" fill="#0e7490" font-family="monospace" font-size="12">~/profile $ build --ship</text>
-  <text x="78" y="526" fill="#64748b" font-family="monospace" font-size="11">Curious mind. Practical builder.</text>
+  <text x="78" y="526" fill="#64748b" font-family="monospace" font-size="11">Code. Learn. Build. Repeat.</text>
+
+  <!-- right info panel -->
   <rect x="466" y="88" width="672" height="472" rx="18" fill="url(#panel)" stroke="#94a3b8" stroke-opacity=".55"/>
   <text x="496" y="120" fill="#0e7490" font-family="monospace" font-size="12" letter-spacing="2">02 / SYSTEM.INFO</text>
-  <text x="496" y="173" fill="#64748b" font-family="monospace" font-size="13">$ ./profile.sh</text>
-  <text x="496" y="225" fill="#0f172a" font-family="monospace" font-size="42" font-weight="700">YASH SHARMA</text>
-  <text x="498" y="256" fill="#0e7490" font-family="monospace" font-size="16">Full-Stack Web Developer · Competitive Programmer</text>
-  <path d="M496 282H1108" stroke="#cbd5e1"/>
+  <text x="496" y="165" fill="#64748b" font-family="monospace" font-size="13">$ ./profile.sh</text>
+  <text x="496" y="210" fill="#0f172a" font-family="monospace" font-size="38" font-weight="700">YASH SHARMA</text>
+  <text x="498" y="240" fill="#0e7490" font-family="monospace" font-size="15">Full-Stack Developer · Open Source Contributor · Problem Solver</text>
+  <path d="M496 262H1108" stroke="#cbd5e1"/>
+  
   <g font-family="monospace" font-size="13">
-   <text x="500" y="319" fill="#64748b">FOCUS</text><text x="650" y="319" fill="#1e293b">Web applications · Problem solving</text>
-   <text x="500" y="355" fill="#64748b">FRONTEND</text><text x="650" y="355" fill="#1e293b">HTML · CSS · JavaScript · React</text>
-   <text x="500" y="391" fill="#64748b">BACKEND</text><text x="650" y="391" fill="#1e293b">Node.js · Express · REST APIs</text>
-   <text x="500" y="427" fill="#64748b">EXPLORING</text><text x="650" y="427" fill="#1e293b">Next.js · TypeScript · Tailwind CSS</text>
-   <text x="500" y="463" fill="#64748b">LANGUAGES</text><text x="650" y="463" fill="#1e293b">C · C++ · Java · JavaScript</text>
+   <text x="500" y="294" fill="#64748b">ROLE</text><text x="650" y="294" fill="#1e293b">Full-Stack Engineer &amp; Open Source Contributor</text>
+   <text x="500" y="328" fill="#64748b">FOCUS</text><text x="650" y="328" fill="#1e293b">Scalable Web Apps · Real-Time Systems · DSA</text>
+   <text x="500" y="362" fill="#64748b">STACK</text><text x="650" y="362" fill="#1e293b">React · Next.js · Node.js · Express · TypeScript · C++</text>
+   <text x="500" y="396" fill="#64748b">DATABASE</text><text x="650" y="396" fill="#1e293b">MongoDB · Redis · PostgreSQL · MySQL</text>
+   <text x="500" y="430" fill="#64748b">HACKATHON</text><text x="650" y="430" fill="#0284c7">🥈 1st Runner-Up @ Code Conqueror India 2026 (ShareX)</text>
+   <text x="500" y="464" fill="#64748b">OPEN SOURCE</text><text x="650" y="464" fill="#059669">Hacktoberfest 2026 · NSoC · 18+ Merged PRs</text>
   </g>
-  <path d="M496 486H1108" stroke="#cbd5e1"/>
+  
+  <path d="M496 488H1108" stroke="#cbd5e1"/>
   <g font-family="monospace" font-size="12" fill="#64748b">
-   <text x="500" y="520">GITHUB</text><text x="570" y="520" fill="#0e7490">github.com/yash-sharmaji</text>
-   <text x="500" y="542">STATUS</text><text x="570" y="542" fill="#059669">● Learning, building &amp; contributing</text>
+   <text x="500" y="512">PORTFOLIO</text><text x="600" y="512" fill="#0284c7">yash-sharma.onrender.com</text>
+   <text x="500" y="530">GITHUB</text><text x="600" y="530" fill="#0e7490">github.com/yash-sharmaji</text>
+   <text x="500" y="548">STATUS</text><text x="600" y="548" fill="#059669">● Open to SDE internships &amp; collaborative builds</text>
   </g>
   <rect x="18" y="18" width="1144" height="574" rx="24" fill="none" stroke="#ffffff" stroke-opacity=".8"/>
  </g>
